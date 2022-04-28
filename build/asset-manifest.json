@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ana-react-portfolio/static/css/main.30a2eb9f.css",
+    "main.js": "/ana-react-portfolio/static/js/main.7c05dc40.js",
+    "index.html": "/ana-react-portfolio/index.html",
+    "main.30a2eb9f.css.map": "/ana-react-portfolio/static/css/main.30a2eb9f.css.map",
+    "main.7c05dc40.js.map": "/ana-react-portfolio/static/js/main.7c05dc40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a2eb9f.css",
+    "static/js/main.7c05dc40.js"
+  ]
+}
