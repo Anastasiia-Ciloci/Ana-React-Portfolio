@@ -5,12 +5,12 @@ export default function About() {
   return (
     <div className="container mt-5 mb-4">
       <h1>About Page</h1>
-      <div className="flex" id="about">
-        <div>
+      <div className="d-flex flex-row" id="about">
+        <div className="align-middle" id="personal-img">
           <img id="profile-img" src={profilePhoto} alt="" />
         </div>
 
-        <div className="mt-3">
+        <div className="col-6 mt-5">
           <p>
             Hello everyone! My name is Anastasiia Ciloci. For the last 6 years I
             have been living in Virginia Beach, Virginia. I worked in beauty

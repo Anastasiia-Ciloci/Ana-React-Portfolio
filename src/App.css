@@ -4,10 +4,21 @@
   min-height: 100vh;
   font-family: "Comfortaa";
   color: rgb(62, 27, 96);
-  background-color: bisque;
+  background-color: rgb(222, 194, 159);
 }
+p {
+  font-size: 1.5rem;
+}
+
 .App {
   text-align: center;
+}
+#tab {
+  color: rgb(138, 147, 157);
+  font-size: 20px;
+}
+#navbar {
+  background-color: rgba(54, 19, 19, 0.924);
 }
 #skills {
   position: flex;
@@ -17,17 +28,24 @@
 h1 {
   text-align: center;
 }
-#profile-image {
+#profile-img {
+  max-width: 50%;
   border-radius: 50%;
-  align-items: center;
+  margin: 60px;
 }
+
 footer {
-  background-color: rgb(50, 9, 9);
+  /* background-color: rgba(50, 9, 9, 0.924); */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
-  position: fixed;
+  margin-bottom: 0;
+  position: sticky;
+}
+#project-card {
+  align-content: center;
+  margin: 5%;
 }
 #about {
   align-items: center;
