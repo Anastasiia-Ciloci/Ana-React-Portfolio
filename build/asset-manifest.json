@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/ana-react-portfolio/static/css/main.30a2eb9f.css",
-    "main.js": "/ana-react-portfolio/static/js/main.7c05dc40.js",
-    "index.html": "/ana-react-portfolio/index.html",
-    "main.30a2eb9f.css.map": "/ana-react-portfolio/static/css/main.30a2eb9f.css.map",
-    "main.7c05dc40.js.map": "/ana-react-portfolio/static/js/main.7c05dc40.js.map"
+    "main.css": "/Ana-React-Portfolio/static/css/main.4f28f387.css",
+    "main.js": "/Ana-React-Portfolio/static/js/main.81b257d0.js",
+    "static/media/BW-Search.png": "/Ana-React-Portfolio/static/media/BW-Search.8c3965c7eb9f07a49e3b.png",
+    "static/media/portfolio-img.png": "/Ana-React-Portfolio/static/media/portfolio-img.1affaee4c070118fc683.png",
+    "static/media/sportify.png": "/Ana-React-Portfolio/static/media/sportify.7a2947d75676c4042236.png",
+    "static/media/Anastasiia Ciloci RESUME.pdf": "/Ana-React-Portfolio/static/media/Anastasiia Ciloci RESUME.27eba2af768a22a547e9.pdf",
+    "static/media/weather.png": "/Ana-React-Portfolio/static/media/weather.629e89b7687aa907d5ce.png",
+    "static/media/notetaker.png": "/Ana-React-Portfolio/static/media/notetaker.1a7b26743e414a209b07.png",
+    "index.html": "/Ana-React-Portfolio/index.html",
+    "main.4f28f387.css.map": "/Ana-React-Portfolio/static/css/main.4f28f387.css.map",
+    "main.81b257d0.js.map": "/Ana-React-Portfolio/static/js/main.81b257d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a2eb9f.css",
-    "static/js/main.7c05dc40.js"
+    "static/css/main.4f28f387.css",
+    "static/js/main.81b257d0.js"
   ]
 }
