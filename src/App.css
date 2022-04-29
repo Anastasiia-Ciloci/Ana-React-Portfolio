@@ -1,8 +1,44 @@
-body {
-  background-color: rgb(207, 207, 227);
-  color: rgb(25, 25, 53);
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: "Comfortaa";
+  color: rgb(62, 27, 96);
+  background-color: bisque;
 }
-
+.App {
+  text-align: center;
+}
+#skills {
+  position: flex;
+  text-align: center;
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+}
+#profile-image {
+  border-radius: 50%;
+  align-items: center;
+}
 footer {
-  background-color: green;
+  background-color: rgb(50, 9, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+}
+#about {
+  align-items: center;
+  margin-left: 5%;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    min-width: 100%;
+  }
 }
