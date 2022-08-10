@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import Footer from "./Footer";
-// import Project from "./pages/Project";
+import Greeting from "./pages/Greeting";
 import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -23,12 +23,18 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      {/* <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()} */}
+      <NavTabs />
+      <Greeting />
+      <About />
+      <Portfolio />
+      <Resume />
+      <Contact />
       <Footer />
     </div>
   );
