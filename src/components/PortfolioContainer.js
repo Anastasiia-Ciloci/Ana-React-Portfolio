@@ -5,6 +5,7 @@ import Greeting from "./pages/Greeting";
 import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
@@ -31,9 +32,10 @@ export default function PortfolioContainer() {
       {renderPage()} */}
       <NavTabs />
       <Greeting />
-      <About />
+      <Skills />
       <Portfolio />
       <Resume />
+      <About />
       <Contact />
       <Footer />
     </div>

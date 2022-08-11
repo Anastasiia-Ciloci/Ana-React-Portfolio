@@ -24,9 +24,9 @@ export default function Contact() {
   // };
   return (
     <>
-      <div className="container mt-5 mb-5">
+      <div className="container mt-10 p-5">
         <h1>Contact Me</h1>
-        <form className="form-group mb-3">
+        <form className="form-group p-2 m-5">
           <div className="form-group mb-3">
             <label for="exampleFormControlInput1" class="form-label">
               Enter your name:

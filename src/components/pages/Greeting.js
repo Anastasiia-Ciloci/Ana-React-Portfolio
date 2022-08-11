@@ -9,13 +9,13 @@ import "animate.css";
 function Greeting() {
   return (
     <>
-      <div className="greeting"></div>
+      <div className="greeting "></div>
       <div id="greeting-text">
         Hi,
         <br />
         I'm Anastasiia Ciloci
         <br />
-        <h2 id="dropped" className="animate__animated animate__fadeIn">
+        <h2 id="dropped" className="animate__animated animate__fadeIn pb-5">
           Full Stack Web Developer...|
         </h2>
       </div>
