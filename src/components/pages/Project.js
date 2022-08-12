@@ -6,7 +6,8 @@ const styles = {
   },
 
   container: {
-    height: "300px",
+    
+    height: "400px",
   },
 
   img: {
@@ -21,7 +22,7 @@ const styles = {
 export default function renderProject({ name, link, githubLink, imgPath }) {
   return (
     <>
-      <div className="col-lg-6 py-5 col-sm-12" style={styles.container}>
+      <div className="col-lg-6 p-5 mb-5 col-sm-12" style={styles.container}>
         <a
           className="text-decoration-none"
           href={link}

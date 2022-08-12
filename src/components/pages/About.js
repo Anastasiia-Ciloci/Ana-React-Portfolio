@@ -3,7 +3,7 @@ import profilePhoto from "../../assets/images/portfolio-img.png";
 
 export default function About() {
   return (
-    <div className="container mt-5 mb-4">
+    <div className="about container mt-5 mb-4">
       <h1>About Page</h1>
       <div className="d-flex flex-row" id="about">
         <div className="align-middle" id="personal-img">

@@ -5,7 +5,10 @@ import projectData from "../../utils/projectData";
 export default function Projects({ project }) {
   return (
     <>
-      <div className="container">
+      <div
+        className="container my-5 
+      pt-5"
+      >
         <h2>Projects</h2>
         <div className="flex row row-cols-2" id="project-card">
           {/* <section className=""> */}
