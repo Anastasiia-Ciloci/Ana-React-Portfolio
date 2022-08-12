@@ -6,7 +6,6 @@ const styles = {
   },
 
   container: {
-    
     height: "400px",
   },
 
@@ -22,7 +21,10 @@ const styles = {
 export default function renderProject({ name, link, githubLink, imgPath }) {
   return (
     <>
-      <div className="col-lg-6 p-5 mb-5 col-sm-12" style={styles.container}>
+      <div
+        className="col-lg-6 p-5 mb-5 col-sm-12 card "
+        style={styles.container}
+      >
         <a
           className="text-decoration-none"
           href={link}
@@ -32,12 +34,12 @@ export default function renderProject({ name, link, githubLink, imgPath }) {
         >
           <img
             id="image"
-            className="img-fluid text-decoration-none col-12"
+            className="img-fluid text-decoration-none col-12 px-5 "
             src={imgPath}
             title={name}
             alt={name}
-            width="100%"
-            // height="250px"
+            width="50%"
+            // height="300px"
             style={styles.img}
           ></img>
         </a>

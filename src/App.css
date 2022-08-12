@@ -64,6 +64,22 @@ li {
 .about {
   background-color: black;
 }
+#about {
+  align-items: center;
+}
+/* projects */
+#image {
+  background-size: auto;
+  align-content: center;
+}
+#image:hover {
+  opacity: 0.6;
+}
+#project-card {
+  align-content: center;
+}
+
+/* skill component */
 #skills {
   position: flex;
   text-align: center;
@@ -91,12 +107,7 @@ footer {
   margin-bottom: 0;
   position: sticky;
 }
-/* #project-card {
-  align-content: center;
-} */
-#about {
-  align-items: center;
-}
+
 /* mobile-resposive */
 @media screen and (max-width: 768px) {
   .greeting {
