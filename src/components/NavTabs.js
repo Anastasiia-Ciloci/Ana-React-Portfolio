@@ -11,7 +11,7 @@ function NavTabs({ handlePageChange }) {
         </a>
       </li>
       <li className="nav-item  btn-outline-secondary rounded pt-2 px-5">
-        <a className=" text-decoration-none " id="tab" href="#portfolio">
+        <a className=" text-decoration-none " id="tab" href="#projects">
           <FaCode />
           Projects
         </a>

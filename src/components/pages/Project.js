@@ -1,24 +1,32 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 const styles = {
   a: {
     textDecoration: "none black",
     color: "black",
+    fontSize: "25px",
   },
 
   container: {
-    height: "400px",
+    height: "450px",
   },
 
   img: {
     height: "200px",
   },
   btnColor: {
-    backgroundColor: "grey",
     height: "50px",
-    color: "blue",
+    color: "white",
   },
 };
-export default function renderProject({ name, link, githubLink, imgPath }) {
+export default function renderProject({
+  name,
+  link,
+  githubLink,
+  imgPath,
+  description,
+  skills,
+}) {
   return (
     <>
       <div
@@ -43,16 +51,33 @@ export default function renderProject({ name, link, githubLink, imgPath }) {
             style={styles.img}
           ></img>
         </a>
-
-        <a href={githubLink} target="_blank" rel="noreferrer" style={styles.a}>
-          <button
-            className="btn col-12 project-button text-decoration-none btnColor my-2"
-            type="button"
-            style={styles.btnColor}
+        <div className="pt-3">
+          <a
+            className="btn col-5 "
+            href={githubLink}
+            target="_blank"
+            rel="noreferrer"
+            style={styles.a}
           >
-            Check repo
-          </button>
-        </a>
+            <FaGithub />
+          </a>
+          <a href={link}>
+            <button
+              className="btn btn-secondary col-6 project-button text-decoration-none  my-2"
+              type="button"
+              style={styles.btnColor}
+            >
+              view project
+            </button>
+          </a>
+        </div>
+
+        <div className="pt-5 container-fluid shadow-sm">
+          {description}
+          <br />
+          Used:{skills}
+        </div>
+        <div></div>
       </div>
     </>
   );

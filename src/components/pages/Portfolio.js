@@ -8,6 +8,7 @@ export default function Projects({ project }) {
       <div
         className="container my-5 
       pt-5"
+        id="projects"
       >
         <h2>
           <FaCode /> Projects
