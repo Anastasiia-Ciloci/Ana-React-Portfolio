@@ -8,7 +8,7 @@ const styles = {
   },
 
   container: {
-    height: "450px",
+    height: "500px",
   },
 
   img: {
@@ -29,55 +29,56 @@ export default function renderProject({
 }) {
   return (
     <>
-      <div
-        className="col-lg-6 p-5 mb-5 col-sm-12 card "
-        style={styles.container}
-      >
-        <a
-          className="text-decoration-none"
-          href={link}
-          target="_blank"
-          rel="noreferrer"
-          style={styles.a}
-        >
-          <img
-            id="image"
-            className="img-fluid text-decoration-none col-12 px-5 "
-            src={imgPath}
-            title={name}
-            alt={name}
-            width="50%"
-            // height="300px"
-            style={styles.img}
-          ></img>
-        </a>
-        <div className="pt-3">
+      {/* container inline-block col-lg-6 col-sm-6 p-5 m-5 col-sm-12  py-5 bg-light */}
+      <div className="col col-lg-6 col-sm-12" style={styles.container}>
+        <div className="p-3 border bg-light">
           <a
-            className="btn col-5 "
-            href={githubLink}
+            className="text-decoration-none"
+            href={link}
             target="_blank"
             rel="noreferrer"
             style={styles.a}
           >
-            <FaGithub />
+            <img
+              id="image"
+              className="img-fluid  text-decoration-none col-12 px-5 "
+              src={imgPath}
+              title={name}
+              alt={name}
+              width="50%"
+              style={styles.img}
+            ></img>
           </a>
-          <a href={link}>
-            <button
-              className="btn btn-secondary col-6 project-button text-decoration-none  my-2"
-              type="button"
-              style={styles.btnColor}
+          <div className="pt-3 ps-5">
+            <a
+              className=" github btn col-5 border border-2 "
+              href={githubLink}
+              target="_blank"
+              rel="noreferrer"
+              style={styles.a}
             >
-              view project
-            </button>
-          </a>
-        </div>
+              <FaGithub />
+            </a>
+            <a href={link}>
+              <button
+                className="btn btn-secondary col-6 project-button text-decoration-none  my-2"
+                type="button"
+                style={styles.btnColor}
+              >
+                view project
+              </button>
+            </a>
+          </div>
 
-        <div className="pt-5 container-fluid shadow-sm">
-          {description}
-          <br />
-          Used:{skills}
+          <div className="pt-2 container-fluid shadow-sm">
+            <p id="projects"> {description}</p>
+
+            <p id="techs">
+              <strong>Used:</strong>
+              {skills}
+            </p>
+          </div>
         </div>
-        <div></div>
       </div>
     </>
   );

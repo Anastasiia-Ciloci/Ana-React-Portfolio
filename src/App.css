@@ -51,7 +51,6 @@ li {
 
 #dropped {
   padding-top: 2rem;
-  animation-delay: 2s;
   animation-duration: 3s;
   font-family: monospace;
 }
@@ -75,18 +74,22 @@ li {
   background-size: auto;
   align-content: center;
 }
-#image:hover {
+
+#image:hover,
+#github:hover {
   opacity: 0.6;
 }
+
 #project-card {
   align-content: center;
 }
 
 /* skill component */
-#skills {
+#skills,
+#resume {
   position: flex;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   position: inherit;
 }
 h1,
@@ -99,22 +102,27 @@ h2 {
   border-radius: 50%;
   margin: 60px;
 }
-
+/* projects */
+#techs {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#projects {
+  font-size: 17px;
+}
+/* contact */
+#contact {
+  background-color: rgb(223, 215, 215);
+}
 /* footer */
 footer {
-  /* background-color: rgba(50, 9, 9, 0.924); */
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 50px;
-  margin-bottom: 0;
-  position: sticky;
 }
 
 /* mobile-resposive */
 @media screen and (max-width: 768px) {
   .greeting {
-    /* background-repeat: no-repeat; */
     background-size: contain;
   }
   .container {
@@ -128,6 +136,5 @@ footer {
 @media screen and (max-width: 614px) {
   .greeting {
     background-size: cover;
-    /* background-repeat: no-repeat; */
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import { FaCode } from "react-icons/fa";
-import { FaDownload } from "react-icons/fa";
-import resume from "../assets/Anastasiia Ciloci RESUME.pdf";
-function NavTabs({ handlePageChange }) {
+import Resume from "../components/pages/Resume";
+
+function NavTabs() {
   return (
     <ul id="navbar" className="nav  d-flex justify-content-center nav-tabs p-2">
       <li className="nav-item btn-outline-secondary rounded px-5 pt-2">
@@ -22,12 +22,7 @@ function NavTabs({ handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item btn btn-outline-warning px-5 ">
-        <a id="tab-resume" href={resume}>
-          <FaDownload />
-          Resume
-        </a>
-      </li>
+      <Resume />
     </ul>
   );
 }

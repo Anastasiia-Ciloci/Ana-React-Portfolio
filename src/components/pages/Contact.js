@@ -1,50 +1,34 @@
 import React from "react";
+import Resume from "./Resume";
+import Connection from "../Connection";
 import { FaCode } from "react-icons/fa";
+
 export default function Contact() {
   return (
     <>
-      <div className="container mt-10 p-5" id="contact">
-        <h1>
-          <FaCode />
-          Contact Me
-        </h1>
-        <form className="form-group p-2 m-5">
-          <div className="form-group mb-3">
-            <label for="exampleFormControlInput1" class="form-label">
-              Enter your name:
-            </label>
-            <input
-              type="emailtext"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Enter your name"
-            />
+      <div className=" shadow  text-center " id="contact">
+        <span className="mx-5 ">
+          <h2>
+            <FaCode />
+            Contact Me
+          </h2>
+        </span>
+
+        <div className=" col-12 bg-black shadow-lg">
+          <div className="pt-5">
+            <Resume />
           </div>
-          <div className="form-group mb-3">
-            <label for="exampleFormControlInput1" class="form-label">
-              Email address:
-            </label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
+          <div className="pt-5 pb-5">
+            <a href={`mailto:anastasiiaciloci@gmail.com`}>
+              <h5>anastasiiaciloci@gmail.com</h5>
+            </a>
           </div>
-          <div className="form-group mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">
-              Message:
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
+        </div>
+        <div className="p-2 ">
+          <div className=" ">
+            <Connection />
           </div>
-          <button className="btn btn-primary" type="button">
-            Submit
-          </button>
-        </form>
+        </div>
       </div>
     </>
   );

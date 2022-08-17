@@ -9,7 +9,8 @@ const projectData = [
     link: "https://vita-amet-2022-05-07.herokuapp.com/",
     githubLink: "https://github.com/Anastasiia-Ciloci/vita-amet.git",
     imgPath: VitaAmet,
-    description: "React app",
+    description:
+      "Vita Amet is a full stack, mobile-responsive e-commerce application with authentication and payment method. Users can login and add items to cart and proceed to checkout",
     skills: "React,JavaScript,Bootstrap,Stripe API",
   },
   {
@@ -17,7 +18,8 @@ const projectData = [
     link: "https://anastasiia-ciloci.github.io/weather-dashboard/",
     githubLink: "https://github.com/Anastasiia-Ciloci/weather-dashboard",
     imgPath: Weather,
-    description: "API weather",
+    description:
+      "Weather Dashboard is an application for searching weather in different cities. Previous searching terms are being saved to the local storage. The weather data comes from Open Weather API. ",
     skills: "HTML,CSS,JavaScript,jQuery.js, third-party API",
   },
   {
@@ -25,16 +27,18 @@ const projectData = [
     link: "https://anastasiia-ciloci.github.io/binge-watching/",
     githubLink: "https://github.com/Anastasiia-Ciloci/binge-watching",
     imgPath: BingeWatching,
-    description: "searchin engine",
+    description:
+      "Binge Watching is an application for searching movies or series on the query subject. Chosen items can be saved to the local storage.",
     skills: "HTML,CSS,JavaScript,jQuery.js, third-party API",
   },
 
   {
     name: "Notetaker ",
-    link: "https://anastasiia-ciloci.github.io/Note-taker/",
+    link: "https://anastasiia-ciloci.github.io/Day-planner/",
     githubLink: "https://github.com/Anastasiia-Ciloci/Note-taker",
     imgPath: Notetaker,
-    description: "notetaker that takes notes",
+    description:
+      "A Note Taker application that saves notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.",
     skills: "HTML,CSS,JavaScript,jQuery.js",
   },
 ];
