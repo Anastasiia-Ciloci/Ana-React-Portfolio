@@ -9,14 +9,18 @@ import Footer from "./pages/Footer";
 
 export default function PortfolioContainer() {
   return (
-    <div>
-      <NavTabs />
-      <Greeting />
-      <Skills />
-      <Portfolio />
-      <About />
-      <Contact />
-      <Footer />
+    <div className="text-center main">
+      <div className="row">
+        <div className="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+          <NavTabs />
+          <Greeting />
+          <Skills />
+          <Portfolio />
+          <About />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

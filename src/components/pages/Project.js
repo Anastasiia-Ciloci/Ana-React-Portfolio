@@ -8,7 +8,7 @@ const styles = {
   },
 
   container: {
-    height: "500px",
+    height: "30%",
   },
 
   img: {
@@ -30,7 +30,10 @@ export default function renderProject({
   return (
     <>
       {/* container inline-block col-lg-6 col-sm-6 p-5 m-5 col-sm-12  py-5 bg-light */}
-      <div className="col col-lg-6 col-sm-12" style={styles.container}>
+      <div
+        className="col col-lg-6 col-sm-12 col-xs-12"
+        style={styles.container}
+      >
         <div className="p-3 border bg-light">
           <a
             className="text-decoration-none"

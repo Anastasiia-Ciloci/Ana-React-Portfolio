@@ -10,7 +10,7 @@ import "animate.css";
 function Greeting() {
   return (
     <>
-      <div className="greeting "></div>
+      <div className="greeting"></div>
 
       <div id="greeting-text">
         Hi,

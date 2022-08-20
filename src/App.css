@@ -133,8 +133,37 @@ footer {
     min-width: 100%;
   }
 }
-@media screen and (max-width: 614px) {
+
+@media screen and (min-width: 200px) and (max-width: 575.9px) {
+  .main {
+    width: 17%;
+  }
   .greeting {
-    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #greeting-text {
+    margin-top: -25%;
+  }
+}
+
+@media screen and (min-width: 575.9px) and (max-width: 614px) {
+  .main {
+    width: 100%;
+    justify-content: center;
+  }
+  .greeting {
+    background-repeat: no-repeat;
+  }
+  #greeting-text {
+    margin-top: -18%;
+  }
+  @media screen and (max-width: 614px) {
+    .greeting {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    #greeting-text {
+      margin-top: -15%;
+    }
   }
 }
